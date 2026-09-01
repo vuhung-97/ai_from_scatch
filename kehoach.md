@@ -52,7 +52,7 @@
 - [x] **Ngày 7 - 8**: *Lecture 1 - Building micrograd* (2h25m) — [YouTube](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) + [repo micrograd](https://github.com/karpathy/micrograd/blob/master/micrograd/engine.py)
   - Sản phẩm: `buoi07/main.py` `Value` + `buoi08/main.py` MLP 2 tầng micrograd Loss 0.67→0.0009 (đã hoàn thành).
 - [x] **Ngày 9 - 10**: *Lecture 2 - Building makemore (Bigram Language Model)* — tóm tắt timestamp + code verbatim từ `karpathy/makemore` (`bigram.py`), NLL loss, Sampling.
-  - Sản phẩm: `buoi09/main.py` Bigram counts 228k, NLL 2.45, sinh 10 tên `kindenauwerily, a, sosynaran...` (đã hoàn thành).
+  - Sản phẩm: `buoi09/main.py` Bigram counts 228k NLL 2.45 + `buoi10/main.py` Bigram NN W(27,27) train loss 3.3→2.48, sinh `efernviestoricz, f, dedadiaguhi...` (đã hoàn thành).
 - [ ] **Ngày 11 - 12**: *Lecture 3 - MLP Language Model (Bengio et al. 2003)* — embeddings, hidden, cross-entropy
 - [ ] **Ngày 13 - 14**: *Lecture 4 - Activations, Gradients & BatchNorm* — Kaiming init, vanishing, BatchNorm
 - [ ] **Ngày 15 - 16**: *Lecture 5 - Building WaveNet* — dilated convolutions
@@ -82,5 +82,5 @@
 ## 📊 Bảng Theo Dõi Tiến Độ
 - **Tổng số buổi**: 35 buổi (tương đương 5 - 6 tuần với 3h/ngày)
 - **Scope**: 20 link (3 AI Model + 17 Neural Network) — code sâu 7 Python chính, còn lại tóm tắt
-- **Đã hoàn thành**: 9 / 35 buổi (25.7%) — đã xong GĐ1 + GĐ2A + micrograd + Bigram counts
-- **Trạng thái hiện tại**: Hoàn thành Buổi 9 Bigram, chuẩn bị Buổi 10 — Bigram Neural Net + Sampling
+- **Đã hoàn thành**: 10 / 35 buổi (28.6%) — đã xong Bigram counts + Bigram NN
+- **Trạng thái hiện tại**: Hoàn thành Buổi 10 Bigram NN, chuẩn bị Buổi 11-12 — MLP Bengio
